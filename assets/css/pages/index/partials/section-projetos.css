@@ -347,6 +347,11 @@
     margin-right: 40px;
   }
 }
+@media screen and (max-width: 1360px) {
+  .projetos-conteudo {
+    cursor: grab;
+  }
+}
 @media screen and (max-width: 695px) {
   .projeto-container {
     min-width: 400px;

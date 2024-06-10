@@ -186,7 +186,10 @@
   width: 30px;
   height: 16px;
   background: var(--primary);
-  cursor: default; 
+  cursor: grab; 
+}
+#controle-volume::-webkit-slider-thumb:active {
+  cursor: grabbing;
 }
 #controle-volume::-moz-range-thumb {
   width: 16px;
